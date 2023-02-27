@@ -9,7 +9,7 @@ import { BiWorld } from 'react-icons/bi';
 
 const ShortNotes = () => {
   return (
-    <div className="dark:bg-transparent h-screen w-full bg-slate-300 snap snap-y bg-transparent">
+    <div id='shortNotes' className="dark:bg-transparent h-screen w-full bg-slate-300 snap snap-y bg-transparent">
       <div className='bg-[url("/crabbgf.png")] bg-no-repeat bg-center bg-cover min-h-screen w-[100%] absolute -z-20 opacity-20' />
       <div className="h-screen flex flex-col justify-center items-center">
         <h1 className="text-7xl py-10 w-full text-center text-bold font-black text-brandBlue">
@@ -19,7 +19,7 @@ const ShortNotes = () => {
         <div className="flex flex-row justify-center items-center w-full snap snap-y p-4">
           <div className="w-[390px] mx-4 h-[200px] rounded-xl px-10 bg-white flex flex-col justify-center items-center bg-clip-padding backdrop-filter border-2 border-gray-200 hover:border-brandBlue hover:border-2 transition-all duration-500 ease-in-out backdrop-blur-sm bg-opacity-20 hover:shadow-2xl shadow-lg">
             <div className="text-left w-full">
-              <div className="h-16 w-16 bg-trasnparent shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
+              <div className="h-16 w-16 hidden bg-trasnparent shadow-xl md:flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
                 <FaFeatherAlt
                   size={30}
                   className="animate-wiggle text-brandBlue"
@@ -36,7 +36,7 @@ const ShortNotes = () => {
           </div>
           <div className="w-[390px] mx-4 h-[200px] rounded-xl px-10 bg-white flex flex-col justify-center items-center bg-clip-padding backdrop-filter border-2 border-gray-200 hover:border-brandBlue hover:border-2 transition-all duration-500 ease-in-out backdrop-blur-sm bg-opacity-20 hover:shadow-2xl shadow-lg">
             <div className="text-left w-full">
-              <div className="h-16 w-16 bg-trasnparent shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
+              <div className="hidden h-16 w-16 bg-trasnparent shadow-xl md:flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
                 <MdOutlineBusinessCenter
                   size={30}
                   className="animate-wiggle text-brandBlue"
@@ -51,7 +51,7 @@ const ShortNotes = () => {
           </div>
           <div className="w-[390px] mx-4 h-[200px] rounded-xl px-10 bg-white flex flex-col justify-center items-center bg-clip-padding backdrop-filter border-2 border-gray-200 hover:border-brandBlue hover:border-2 transition-all duration-500 ease-in-out backdrop-blur-sm bg-opacity-20 hover:shadow-2xl shadow-lg">
             <div className="text-left w-full">
-              <div className="h-16 w-16 bg-trasnparent shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
+              <div className="h-16 w-16 hidden bg-trasnparent shadow-xl md:flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
                 <MdOutlineImportExport
                   size={30}
                   className="animate-wiggle text-brandBlue"
@@ -70,7 +70,7 @@ const ShortNotes = () => {
         <div className="flex flex-row justify-center items-center w-full snap snap-y p-4">
           <div className="w-[390px] mx-4 h-[200px] rounded-xl px-10 bg-white flex flex-col justify-center items-center bg-clip-padding backdrop-filter border-2 border-gray-200 hover:border-brandBlue hover:border-2 transition-all duration-500 ease-in-out backdrop-blur-sm bg-opacity-20 hover:shadow-2xl shadow-lg mb-10">
             <div className="text-left w-full">
-              <div className="h-16 w-16 bg-trasnparent shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
+              <div className="h-16 w-16 hidden bg-trasnparent shadow-xl md:flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
                 <GiSadCrab
                   size={30}
                   className="animate-wiggle text-brandBlue"
@@ -78,7 +78,7 @@ const ShortNotes = () => {
               </div>
             </div>
 
-            <p className="text-left text-base lg:text-md w-full md:text-md sm:text-xs">
+            <p className="text-left text-[8px] md:text-md w-full md:text-md sm:text-xs">
               <span className="font-bold text-brandBlue">Mud Crab Farming</span>
               , (Frozen Mud Crab / Frozen Soft Shell Crab / Live Mud Crabs /
               Hard Shell Crab) Processing & Export
@@ -86,7 +86,7 @@ const ShortNotes = () => {
           </div>
           <div className="w-[390px] mx-4 h-[200px] rounded-xl px-10 bg-white flex flex-col justify-center items-center bg-clip-padding backdrop-filter border-2 border-gray-200 hover:border-brandBlue hover:border-2 transition-all duration-500 ease-in-out backdrop-blur-sm bg-opacity-20 hover:shadow-2xl shadow-lg mb-10">
             <div className="text-left w-full">
-              <div className="h-16 w-16 bg-trasnparent shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
+              <div className="h-16 w-16 hidden bg-trasnparent shadow-xl md:flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
                 <AiFillSafetyCertificate
                   size={30}
                   className="animate-wiggle text-brandBlue"
@@ -102,7 +102,7 @@ const ShortNotes = () => {
           </div>
           <div className="w-[390px] mx-4 h-[200px] rounded-xl px-10 bg-white flex flex-col justify-center items-center bg-clip-padding backdrop-filter border-2 border-gray-200 hover:border-brandBlue hover:border-2 transition-all duration-500 ease-in-out backdrop-blur-sm bg-opacity-20 hover:shadow-2xl shadow-lg mb-10">
             <div className="text-left w-full">
-              <div className="h-16 w-16 bg-trasnparent shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
+              <div className="h-16 w-16 hidden bg-trasnparent shadow-xl md:flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
                 <BiWorld size={30} className="animate-wiggle text-brandBlue" />
               </div>
             </div>

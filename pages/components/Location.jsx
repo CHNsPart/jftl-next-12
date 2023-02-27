@@ -7,7 +7,7 @@ import arealview from "../../public/arealview.png"
 const Location = () => {
   return (
     <>
-    <div className='bg-[#020721] dark:bg-transparent h-fit w-full py-10 flex flex-row justify-center items-center'>
+    <div id='location' className='bg-[#020721] dark:bg-transparent h-fit w-full py-10 flex flex-row justify-center items-center'>
         <div className='flex justify-center items-center flex-col w-full bg-transparent text-center'>
             <h1 className='text-5xl text-bold font-black text-brandBlue mb-5'>
                 Project Location

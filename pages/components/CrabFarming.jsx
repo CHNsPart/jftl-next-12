@@ -40,7 +40,7 @@ const CrabFarming = () => {
         </div>
       </div>
 
-      <div className="flex bg-brandBlue/20 my-2 p-5 pb-10 rounded-xl flex-row justify-center items-center md:px-0 md:grid md:grid-cols-1 lg:flex lg:flex-row lg:justify-center lg:items-center">
+      <div className="flex bg-brandBlue/20 my-2 p-5 pb-10 rounded-xl flex-row justify-center items-center md:px-0 md:grid md:grid-cols-1 lg:flex lg:flex-row lg:justify-center lg:items-center sm:grid sm:gap-10 sm:py-10">
         <div className="flex flex-col justify-center justify-self-start items-center w-full md:w-1/2 lg:flex lg:flex-col lg:justify-center lg:m-0 lg:justify-self-start lg:items-center md:px-0 md:mb-10 md:grid md:grid-cols-1">
           <div className="w-[30rem] px-10">
             <div className="h-16 w-16 bg-brandBlue shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 font-bold text-2xl text-white border-brandBlue">

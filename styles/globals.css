@@ -87,9 +87,15 @@ html[data-theme='dark'] {
   --text-color-highlight: hsl(25, 70%, 45%);
 } */
 
+html,body{
+  scroll-behavior: smooth;
+}
+
 .dark-mode {
   background-color: #0a244d;
+  scroll-behavior: smooth;
 }
 .light-mode {
   background-color: #FFFFFF;
+  scroll-behavior: smooth;
 }

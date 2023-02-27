@@ -5,7 +5,7 @@ import styles from './Landing.module.css';
 
 const Landing = () => {
   return (
-    <div className="h-screen w-full flex flex-col md:flex-row justify-center items-center">
+    <div id='home' className="h-screen w-full flex flex-col md:flex-row justify-center items-center">
       <div 
         className="w-full absolute h-screen bg-black opacity-60"
       />
@@ -21,8 +21,8 @@ const Landing = () => {
       <section className="absolute flex flex-row justify-center items-center w-full h-full">
         <div className="flex flex-row justify-center items-center h-full w-full">
           <div className="flex flex-col justify-center items-center">
-            <Image src={logo} height={120} width={120} className="mb-10 lg:mb-5 lg:mt-11 lg:h-[4rem] lg:w-auto rounded-lg shadow-xl shadow-brandBlue/50" />
-            <h1 className="text-6xl lg:text-4xl leading-tight text-white font-bold text-center">
+            <Image src={logo} height={120} width={120} className="mb-10 lg:mb-10 lg:mt-11 lg:h-[5rem] lg:w-auto rounded-lg shadow-xl shadow-brandBlue/50" />
+            <h1 className="text-6xl md:text-4xl leading-tight text-white font-bold text-center">
               <span className="text-red-500/90 bg-white px-2 rounded-lg">
                 JAPAN
               </span>{' '}
@@ -30,7 +30,7 @@ const Landing = () => {
               <br />
               TRADE LTD
             </h1>
-            <p className="flex text-center justify-center items-center text-md lg:text-sm text-white p-1 lg:pb-2 pb-4">
+            <p className="flex text-center justify-center items-center text-md lg:text-sm text-white p-1 lg:pb-2 lg:pt-2 pb-4">
               Presenting Bangladeshi seafood delicacy from <br />
               the Sundarban (world’s largest mangrove forest)
               <br /> to the rest of the World
@@ -40,7 +40,7 @@ const Landing = () => {
             >
               Contact Us{' '}
             </button> */}
-            <div className={`${styles.circleOrbitContainer}`}>
+            <div className={`${styles.circleOrbitContainer} mt-10`}>
               <div id="middle-orbit" className={styles.middleOrbit} >
                 <div className={styles.middleOrbitCirlces}></div>
               </div>

@@ -33,10 +33,11 @@ function MyApp({ Component, pageProps }) {
     <>
       { loading ? 
         (
-          <main className='h-[100vh] w-full flex justify-center items-center'>
+          <main className='h-[100vh] w-full flex flex-col gap-6 justify-center items-center'>
             <GridLoader
               color='#4DBAE7'
             />
+            <h1 className='text-brandBlue tracking-widest'>Japan Fast Trade LTD.</h1>
           </main>
           )
           :

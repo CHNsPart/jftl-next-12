@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { FaRegLightbulb } from 'react-icons/fa';
 import { FaLightbulb } from 'react-icons/fa';
+import Link from "next/link"
 import logo from "../public/JFTLLogo.jpg"
 import Image from 'next/image';
 
@@ -49,30 +50,35 @@ const NavBar = ({ modeChange }) => {
       </h2>
       <div className="flex justify-center items-center">
         <ul className="mr-5 text-lg uppercase">
-          <li
+          <Link
+            href={`#home`}
             onClick={scrollToTop}
-            className="inline-block md:text-md mx-4 cursor-pointer hover:scale-110 hover:text-lightBrandBlue transition-all ease-in-out duration-200"
+            className="inline-block text-xs md:text-xs lg:text:md xl:text-lg mx-4 cursor-pointer hover:scale-110 hover:text-lightBrandBlue transition-all ease-in-out duration-200"
           >
             Home
-          </li>
-          <li
+          </Link>
+          <Link
+            href={`#about`}
             onClick={scrollToAbout}
-            className="inline-block md:text-md mx-4 cursor-pointer hover:scale-110 hover:text-lightBrandBlue transition-all ease-in-out duration-200"
+            className="inline-block text-xs md:text-xs lg:text:md xl:text-lg mx-4 cursor-pointer hover:scale-110 hover:text-lightBrandBlue transition-all ease-in-out duration-200"
           >
             About
-          </li>
-          <li
+          </Link>
+          <Link
+            href={`#location`}
             onClick={scrollToLoc}
-            className="inline-block md:text-md mx-4 cursor-pointer hover:scale-110 hover:text-lightBrandBlue transition-all ease-in-out duration-200"
+            className="inline-block text-xs md:text-xs lg:text:md xl:text-lg mx-4 cursor-pointer hover:scale-110 hover:text-lightBrandBlue transition-all ease-in-out duration-200"
           >
             Location
-          </li>
-          <li
+          </Link>
+          <Link
+            href={`#shortNotes`}
             onClick={scrollToNotes}
-            className="inline-block md:text-md mx-4 cursor-pointer hover:scale-110 hover:text-lightBrandBlue transition-all ease-in-out duration-200"
+            smooth={true}
+            className="inline-block text-xs md:text-xs lg:text:md xl:text-lg mx-4 cursor-pointer hover:scale-110 hover:text-lightBrandBlue transition-all ease-in-out duration-200"
           >
             Short Notes
-          </li>
+          </Link>
         </ul>
         <button
           onClick={scrollToFooter}

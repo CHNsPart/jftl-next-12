@@ -7,7 +7,7 @@ const ValueDetails = () => {
     <div className="bg-[#020721] dark:bg-transparent min-h-screen relative flex flex-col justify-center items-center w-full snap snap-y">
       <div className='bg-[url("/crabbgf.png")] bg-no-repeat bg-center bg-cover min-h-[100%] w-full absolute -z-20 opacity-20' />
       <div className="w-full mt-10 px-36 flex flex-row justify-around items-center">
-        <div className="w-1/2 mr-5 bg-darkBrandBlue px-5 h-auto py-10 rounded-lg text-white">
+        <div className="w-full md:w-1/2 mr-5 bg-darkBrandBlue px-5 h-auto py-10 rounded-lg text-white">
           <h1 className="text-5xl font-bold mb-5">
             <GiCatch className="mb-5" size={50} /> Crab Catcher
           </h1>
@@ -17,7 +17,7 @@ const ValueDetails = () => {
             canals of the mangroves & then supply those to the wholesalers.
           </p>
         </div>
-        <div className="w-1/2 ml-5 bg-darkBrandBlue px-5 h-auto py-10 rounded-lg text-white">
+        <div className="w-full md:w-1/2 ml-5 bg-darkBrandBlue px-5 h-auto py-10 rounded-lg text-white">
           <h1 className="text-5xl font-bold mb-5">
             <GiFarmer className="mb-5" size={50} /> Crab Farmers
           </h1>
@@ -30,8 +30,8 @@ const ValueDetails = () => {
       </div>
 
       <div className="w-full mt-10 px-36 flex flex-row justify-around items-center">
-        <div className="w-1/2 mr-5 bg-darkBrandBlue px-5 h-auto py-10 rounded-lg text-white">
-          <h1 className="text-5xl font-bold mb-5">
+        <div className="w-full md:w-1/2 mr-5 bg-darkBrandBlue px-5 h-auto py-10 rounded-lg text-white">
+          <h1 className="text-2xl lg:text-5xl md:text-4xl font-bold mb-5">
             <GiCrab className="mb-5" size={50} /> Soft Shell Crab Processors
           </h1>
           <p className="text-left text-lg tracking-wider">
@@ -40,8 +40,8 @@ const ValueDetails = () => {
             also certified by BRC in 2022.
           </p>
         </div>
-        <div className="w-1/2 ml-5 bg-darkBrandBlue px-5 h-auto py-10 rounded-lg text-white">
-          <h1 className="text-5xl font-bold mb-5">
+        <div className="w-full md:w-1/2 ml-5 bg-darkBrandBlue px-5 h-auto py-10 rounded-lg text-white">
+          <h1 className="text-2xl lg:text-5xl md:text-4xl font-bold mb-5">
             <FaTruck className="mb-5" size={50} /> Exporters
           </h1>
           <p className="text-left text-lg tracking-wider">

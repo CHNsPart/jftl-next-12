@@ -21,7 +21,7 @@ const CompanyBar = () => {
           Our Partners
         </h1>
       </div>
-      <div className="my-20 flex flex-wrap justify-center w-full">
+      <div className="my-5 md:my-20 flex flex-wrap justify-center w-full">
         <div className="flex items-center justify-center w-full md:w-1/4 lg:w-1/8">
           <Image src={dni} alt="DNI" className="h-32 w-32" />
         </div>
