@@ -23,7 +23,7 @@ import vp18 from '../../public/vp18.png';
 const Products = () => {
   return (
     <>
-    <div className="bg-[#020721] dark:bg-transparent min-h-fit my-16 relative flex flex-col justify-center items-center w-full snap snap-y">
+    <div id='prods' className="bg-[#020721] dark:bg-transparent min-h-fit my-16 relative flex flex-col justify-center items-center w-full snap snap-y">
         <div className='w-full flex flex-row justify-center items-center opacity-20 gap-10'>
         <GiBuyCard size={50}/>
         <GiCrab size={50}/>

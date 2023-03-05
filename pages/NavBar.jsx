@@ -46,7 +46,7 @@ const NavBar = ({ modeChange }) => {
       mode={radioMode}
     >
       <h2 className="text-white text-2xl">
-        <Image src={logo} height={80} width={80} />
+        <Image src={logo} height={70} width={65} className='rounded-lg shadow-lg shadow-brandBlue/50' />
       </h2>
       <div className="flex justify-center items-center">
         <ul className="mr-5 text-lg uppercase">
@@ -79,7 +79,15 @@ const NavBar = ({ modeChange }) => {
           >
             Short Notes
           </Link>
+          <Link
+            href={`#prods`}
+            smooth={true}
+            className="inline-block text-xs md:text-xs lg:text:md xl:text-lg mx-4 cursor-pointer hover:scale-110 hover:text-lightBrandBlue transition-all ease-in-out duration-200"
+          >
+            Products
+          </Link>
         </ul>
+
         <button
           onClick={scrollToFooter}
           className={`bg-gradient-to-r from-lightBrandBlue to-darkBrandBlue w-32 tracking-wider h-10 rounded-full`}

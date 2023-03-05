@@ -1,13 +1,12 @@
-'use client';
 import React from 'react';
 import Image from 'next/image';
 import softShell from '../../public/softshell.png';
 import b1 from '../../public/blob1.svg';
 import { AiFillCaretDown } from 'react-icons/ai';
 
-const Example = () => {
+const ProductStart = () => {
   return (
-    <div className="flex h-screen w-full flex-col justify-center items-center">
+    <div id="prods" className="flex h-screen w-full flex-col justify-center items-center">
       <div className="flex flex-col lg:flex-row h-screen w-full justify-center items-center">
         <div className="flex w-full lg:w-1/2 flex-col justify-center items-center">
           <Image
@@ -51,4 +50,4 @@ const Example = () => {
   );
 };
 
-export default Example;
+export default ProductStart;
