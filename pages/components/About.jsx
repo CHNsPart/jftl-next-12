@@ -3,7 +3,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div id='about' className="min-h-[100%] py-20 flex flex-col justify-center items-center w-full bg-[#020721] dark:bg-transparent">
+    <div id='about' className="min-h-[100%] flex flex-col justify-center items-center w-full bg-[#020721] dark:bg-transparent">
       <h1 className="text-7xl mb-10 w-full text-center text-bold font-black text-brandBlue">
         About Us
       </h1>
@@ -21,15 +21,15 @@ At present, JFTL is a JV between J Group, Japan and Azma International Ltd (AIL)
         
         </div>
         <div className="w-full h-fit flex flex-col justify-start items-start lg:my-0 md:my-0">
-          <p className="py-2 text-md w-full pl-5 pr-2.5 text-justify">
+          <p className="py-2 text-md w-full pl-2 pr-5 text-justify">
 As part of our commitment to offer the best possible seafoods from the mother nature to our valued clients, we focus most on Quality Assurance (QA) at each and every stage of our operation. Challenges are everywhere, but JFTL QA team along with the guidance & support from J Group Japan QC team have been working in maintaining our standards and also striving for continuous improvement. We are certified by internationally recognized food safety standards like HACCP & BRC.
           </p>
-          <p className="py-2 text-md w-full pl-2.5 pr-5 text-justify">
+          <p className="py-2 text-md w-full pl-2 pr-5 text-justify">
 In addition to our regular operations, we never shifted our focus from our core commitment to the development of the local society and the lifestyle of the underprivileged people. So, as part of our Corporate Social Responsibility (CSR), other than offering employment & training opportunities for both the genders, we regularly conduct some other social & development activities like offering Pure Drinking Water to the locals, Medical Supports, Education Scholarships, developing Road Communications, River Bank Maintenance & Protection, Sluice Gate Repair, Cyclone Recovery Program, optimized quality Rationing System for the employee, etc.
           </p>
         </div>
         <div className="w-full h-fit flex flex-col justify-center justify-self-start items-center lg:my-0 md:my-20">
-          <p className="py-2 text-md w-full pl-2.5 pr-5 text-justify">Also as part of our commitment to saving the Environment, we use Effluent Treatment Plant (ETP) to treat the used processing plant water and recycle those back to the plant again. In addition to our regular operations, we never shifted our focus from our core commitment to the development of the local society and the lifestyle of the underprivileged people. So, as part of our Corporate Social Responsibility (CSR), other than offering employment & training opportunities for both the genders, we regularly conduct some other social & development activities like offering Pure Drinking Water to the locals, Medical Supports, Education Scholarships, developing Road Communications, River Bank Maintenance & Protection, Sluice Gate Repair, Cyclone Recovery Program, optimized quality Rationing System for the employee, etc. Also as part of our commitment to saving the Environment, we use Effluent Treatment Plant (ETP) to treat the used processing plant water and recycle those back to the plant again.
+          <p className="py-2 text-md w-full pl-2 pr-5 text-justify">Also as part of our commitment to saving the Environment, we use Effluent Treatment Plant (ETP) to treat the used processing plant water and recycle those back to the plant again. In addition to our regular operations, we never shifted our focus from our core commitment to the development of the local society and the lifestyle of the underprivileged people. So, as part of our Corporate Social Responsibility (CSR), other than offering employment & training opportunities for both the genders, we regularly conduct some other social & development activities like offering Pure Drinking Water to the locals, Medical Supports, Education Scholarships, developing Road Communications, River Bank Maintenance & Protection, Sluice Gate Repair, Cyclone Recovery Program, optimized quality Rationing System for the employee, etc. Also as part of our commitment to saving the Environment, we use Effluent Treatment Plant (ETP) to treat the used processing plant water and recycle those back to the plant again.
           </p>
         </div>
 {/*           <div className="w-full h-screen">

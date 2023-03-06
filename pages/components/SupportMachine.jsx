@@ -101,7 +101,7 @@ const SupportMachine = () => {
             <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm3} />
           </div>
           <p className="text-left text-lg px-10 w-[30rem]">
-            3D Blast Freezer @ -37oC, KOGASUN, Japan
+            3D Blast Freezer @ -37°C, KOGASUN, Japan
           </p>
           <div className="w-[30rem] px-10"></div>
         </div>
@@ -128,7 +128,7 @@ const SupportMachine = () => {
             <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm2} />
           </div>
           <p className="text-left text-lg px-10 w-[30rem]">
-            Cold Storage @ -20oC ~-25oC (Total 200 Ton)
+            Cold Storage @ -20°C ~-25°C (Total 200 Ton)
           </p>
           <div className="w-[30rem] px-10"></div>
         </div>
@@ -140,7 +140,7 @@ const SupportMachine = () => {
             <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm7} />
           </div>
           <p className="text-left text-lg px-10 w-[30rem]">
-            Metal Detector (ISHIDA, Japan)
+            Water Treatment Plant (WTP @ 3000ltr/hr) 
           </p>
           <div className="w-[30rem] px-10"></div>
         </div>
@@ -154,7 +154,7 @@ const SupportMachine = () => {
             <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm1} />
           </div>
           <p className="text-left text-lg px-10 w-[30rem]">
-            Cold Storage @ -20oC ~-25oC (Total 200 Ton)
+            Effluent Treatment Plant (ETP)
           </p>
           <div className="w-[30rem] px-10"></div>
         </div>

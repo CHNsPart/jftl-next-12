@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Landing.module.css';
-import pic from "../../public/crabBurger.jpg"
-import pic1 from "../../public/creeb.jpg"
+import pic from "../../public/crabfry2.jpeg"
+import pic1 from "../../public/crabBurger.jpg"
 import pic2 from "../../public/crabPlatter.jpg"
 import pic3 from "../../public/fried-soft.jpg"
 import Image from 'next/image';
@@ -11,8 +11,9 @@ import { Carousel } from 'react-responsive-carousel';
 const Landing = () => {
   return (
     <div id='home' className="h-screen w-full flex flex-col md:flex-row justify-center items-center">
-      <div 
-        className="w-1/2 left-0 absolute h-screen rounded-r-full bg-black opacity-60"
+      <div
+        id='landImage' 
+        className="w-1/2 left-0 absolute h-screen opacity-100"
       />
       <video
         className="w-full h-full object-cover"
@@ -31,36 +32,41 @@ const Landing = () => {
                   <span className="text-red-500/90 bg-white px-2 rounded-lg">
                     JAPAN
                   </span>{' '}
+                  <span className="text-white bg-[#3D7138]/90 px-2 rounded-lg">
                   FAST
                   TRADE LTD
+                  </span>
                 </h1>
-                <p className="flex text-center justify-center items-center text-lg lg:text-lg text-white p-1 lg:pb-2 lg:pt-2 pb-4">
+                <p className="flex text-center justify-center items-center text-lg lg:text-lg text-black p-4 rounded-md lg:pb-2 lg:pt-2 mt-5 pb-4 bg-white">
                   Presenting Bangladeshi seafood delicacy <br /> to the rest of the World
                 </p>
-              <Carousel
-                showStatus={false}
-                infiniteLoop
-                autoPlay
-                dynamicHeight
-                className='mt-10 px-5 h-auto w-2/3'
-              >
-                <div className='max-h-fit rounded-lg w-full'>
-                  <Image className='rounded-lg object-contain' src={pic} />
-                  
-                </div>
-                <div className='max-h-fit rounded-lg w-full'>
-                  <Image className='rounded-lg object-contain' src={pic2} />
-                  
-                </div>
-                <div className='max-h-fit rounded-lg w-full'>
-                  <Image className='rounded-lg object-contain' src={pic3} />
-                  
-                </div>
-                <div className='max-h-fit rounded-lg w-full'>
-                  <Image className='rounded-lg object-contain' src={pic1} />
-                  
-                </div>
-              </Carousel>
+              <div className='mt-10 px-5 max-h-[20rem] w-2/3 origin-top'>
+
+                <Carousel
+                  showStatus={false}
+                  infiniteLoop
+                  autoPlay
+                  dynamicHeight
+                  className='origin-top'
+                >
+                  <div className='max-h-fit rounded-lg w-full'>
+                    <Image className='rounded-lg object-contain' src={pic} />
+                    
+                  </div>
+                  <div className='max-h-fit rounded-lg w-full'>
+                    <Image className='rounded-lg object-contain' src={pic2} />
+                    
+                  </div>
+                  <div className='max-h-fit rounded-lg w-full'>
+                    <Image className='rounded-lg object-contain' src={pic3} />
+                    
+                  </div>
+                  <div className='max-h-fit rounded-lg w-full'>
+                    <Image className='rounded-lg object-contain' src={pic1} />
+                    
+                  </div>
+                </Carousel>
+              </div>
 
               </div>
             </div>

@@ -5,9 +5,10 @@ import { FaFeatherAlt } from 'react-icons/fa';
 import { MdOutlineBusinessCenter } from 'react-icons/md';
 import { MdOutlineImportExport } from 'react-icons/md';
 import { GiSadCrab } from 'react-icons/gi';
-import { AiFillSafetyCertificate } from 'react-icons/ai';
-import { BiWorld } from 'react-icons/bi';
+import { TbCertificate } from 'react-icons/tb';
+import { CgFlagAlt } from 'react-icons/cg';
 import jgroup from "../../public/jgroup.svg"
+import bdjp from "../../public/bdjp.png"
 
 const ShortNotes = () => {
   return (
@@ -22,10 +23,12 @@ const ShortNotes = () => {
           <div className="w-[390px] mx-4 h-[200px] rounded-xl px-10 bg-white flex flex-col justify-center items-center bg-clip-padding backdrop-filter border-2 border-gray-200 hover:border-brandBlue hover:border-2 transition-all duration-500 ease-in-out backdrop-blur-sm bg-opacity-20 hover:shadow-2xl shadow-lg">
             <div className="text-left w-full">
               <div className="h-16 w-16 hidden bg-trasnparent shadow-xl md:flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
-                <FaFeatherAlt
+                {/* <FaFeatherAlt
                   size={30}
                   className="animate-wiggle text-brandBlue"
-                />
+                /> */}
+                <Image className='w-full' src={bdjp}/>
+                
               </div>
             </div>
 
@@ -84,13 +87,13 @@ const ShortNotes = () => {
             <p className="text-left text-[8px] md:text-md w-full md:text-md sm:text-xs">
               <span className="font-bold text-brandBlue">Mud Crab Farming</span>
               , (Frozen Mud Crab / Frozen Soft Shell Crab / Live Mud Crabs /
-              Hard Shell Crab) Processing & Export
+              Hard Shell Crab) <span className="font-bold text-brandBlue">Processing & Export</span>
             </p>
           </div>
           <div className="w-[390px] mx-4 h-[200px] rounded-xl px-10 bg-white flex flex-col justify-center items-center bg-clip-padding backdrop-filter border-2 border-gray-200 hover:border-brandBlue hover:border-2 transition-all duration-500 ease-in-out backdrop-blur-sm bg-opacity-20 hover:shadow-2xl shadow-lg mb-10">
             <div className="text-left w-full">
               <div className="h-16 w-16 hidden bg-trasnparent shadow-xl md:flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
-                <AiFillSafetyCertificate
+                <TbCertificate
                   size={30}
                   className="animate-wiggle text-brandBlue"
                 />
@@ -98,15 +101,18 @@ const ShortNotes = () => {
             </div>
 
             <p className="text-left w-full md:text-md">
-              <span className="font-bold text-brandBlue">BRCGS</span> &{' '}
-              <span className="font-bold text-brandBlue">HACCP</span> <br />{' '}
+              <span className="font-bold text-brandBlue">BRCGS</span>,{' '}
+              <span className="font-bold text-brandBlue">EU</span>,{' '}
+              <span className="font-bold text-brandBlue">HACCP</span>, {' '}
+              <span className="font-bold text-brandBlue">Halal Certified</span> & {' '} <br />
+              <span className="font-bold text-brandBlue">USFDA</span> registered facility {' '}
               Certified
             </p>
           </div>
           <div className="w-[390px] mx-4 h-[200px] rounded-xl px-10 bg-white flex flex-col justify-center items-center bg-clip-padding backdrop-filter border-2 border-gray-200 hover:border-brandBlue hover:border-2 transition-all duration-500 ease-in-out backdrop-blur-sm bg-opacity-20 hover:shadow-2xl shadow-lg mb-10">
             <div className="text-left w-full">
               <div className="h-16 w-16 hidden bg-trasnparent shadow-xl md:flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
-                <BiWorld size={30} className="animate-wiggle text-brandBlue" />
+                <CgFlagAlt size={30} className="animate-wiggle text-brandBlue" />
               </div>
             </div>
 

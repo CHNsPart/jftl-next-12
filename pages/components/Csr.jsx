@@ -28,7 +28,7 @@ const Csr = () => {
     </div>
         <div className='flex flex-col justify-center items-center bg-transparent mt-16'>
         <h1 className="text-7xl w-full text-center text-bold font-black text-brandBlue">
-            Corporate Social Responsibilites <br /> <span className='text-red-500/90 font-black'>CSR </span> <br />by JFTL
+            Corporate Social Responsibilites <br /> {/* <span className='text-red-500/90 font-black'>CSR </span> <br />by JFTL */}
         </h1>
         <h2 className='bg-red-500/80 px-4 rounded-full mt-4 text-white'>CSR by JFTL</h2>
 
@@ -61,7 +61,7 @@ const Csr = () => {
         <FaTruck size={50}/>
     </div>
         <div className='flex flex-col justify-center items-center bg-transparent mt-16'>
-        <h2 className='bg-red-500/80 px-4 rounded-full mt-4 text-white'>CSR by JFTL</h2>
+        {/* <h2 className='bg-red-500/80 px-4 rounded-full mt-4 text-white'>CSR by JFTL</h2> */}
 
         <div className='grid grid-cols-1 w-3/4 gap-2 my-20 hover:gap-4 transition-all duration-300 ease-in-out'>
         <div className="grid grid-cols-1 gap-2 hover:gap-4 transition-all duration-300 ease-in-out bg-white">

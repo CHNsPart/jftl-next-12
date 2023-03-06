@@ -28,7 +28,7 @@ const LiveCrab = () => {
     </div>
         <div className='flex flex-col justify-center items-center bg-transparent mt-16'>
         <h1 className="text-7xl w-full text-center text-bold font-black text-brandBlue">
-            Live Mud Crab <span className='text-red-500/90 font-black'>/</span> Live Hard Shell Crab by JFTL
+            {/* <span className='text-red-500/90 font-black'>/</span> */} Live Hard Shell Crab by JFTL
         </h1>
         <h2 className='bg-red-500/80 px-4 rounded-full mt-4 text-white'>JFTL LIVE CRAB PROCESSING CENTER</h2>
 
