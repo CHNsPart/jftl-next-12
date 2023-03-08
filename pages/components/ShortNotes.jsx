@@ -12,7 +12,7 @@ import bdjp from "../../public/bdjp.png"
 
 const ShortNotes = () => {
   return (
-    <div id='shortNotes' className="dark:bg-transparent h-screen w-full bg-slate-300 snap snap-y bg-transparent">
+    <div id='shortNotes' className=":bg-transparent h-screen w-full bg-slate-300 snap snap-y bg-transparent">
       <div className='bg-[url("/crabbgf.png")] bg-no-repeat bg-center bg-cover min-h-screen w-[100%] absolute -z-20 opacity-20' />
       <div className="h-screen flex flex-col justify-center items-center">
         <h1 className="text-7xl py-10 w-full text-center text-bold font-black text-brandBlue">
@@ -132,6 +132,13 @@ const ShortNotes = () => {
               </div>
             </div>
           </div> */}
+{/*         <div href="#" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 :border-gray-700 :bg-gray-800 :hover:bg-gray-700">
+            <Image className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src={jgroup} width={100} height={200} alt=""/>
+            <div className="flex flex-col justify-between p-4 leading-normal">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 :text-white">Noteworthy technology acquisitions 2021</h5>
+                <p className="mb-3 font-normal text-gray-700 :text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+            </div>
+        </div> */}
 
         </div>
       </div>

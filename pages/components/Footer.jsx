@@ -90,8 +90,8 @@ const Footer = () => {
           </p>
         </div>
         </div>
-        <div className="flex flex-row justify-end items-center w-full">
-          <div className='text-white grid grid-cols-5 gap-10 items-center'> 
+{/*         <div className="flex flex-row justify-end items-center w-full"> */}
+        <div className='text-white grid grid-cols-5 gap-10 items-center absolute right-0'> 
           
           <div className="h-auto w-[8rem] pr-10 hover:scale-90 duration-300 cursor-pointer transition-all delay-200 ease-out relative -bottom-44 tracking-wide align-text-bottom leading-10">
             <Image
@@ -134,7 +134,7 @@ const Footer = () => {
             />
           </div>
         </div>
-      </div>
+      {/* </div> */}
       </div>
       <div className="w-full flex justify-center items-center bg-brandBlue h-10 text-white">
         <p className="text-center text-white text-2xl text-bold">
