@@ -16,10 +16,13 @@ module.exports = {
         sans: ['(--font-arsenica-bold)'],
       },
       colors: {
-        transparent: 'transparent',
-        brandBlue: '#4DBAE7',
-        lightBrandBlue: '#57BFE9',
-        darkBrandBlue: '#0B94D5',
+        // transparent: 'transparent',
+        // brandBlue: '#4DBAE7',
+        // lightBrandBlue: '#57BFE9',
+        // darkBrandBlue: '#0B94D5',
+        brandBlue: '#C5DC68',
+        lightBrandBlue: '#7CBE42',
+        darkBrandBlue: '#3C7238',
       },
       keyframes: {
         wiggle: {

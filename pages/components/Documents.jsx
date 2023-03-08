@@ -34,7 +34,7 @@ const Documents = () => {
 
         <div className='grid grid-cols-1 w-3/4 gap-2 my-20 hover:gap-4 transition-all duration-300 ease-in-out'>
         <div className="grid grid-cols-1 gap-2 hover:gap-4 transition-all duration-300 ease-in-out bg-white">
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full rounded-3xl w-full border transition-all duration-300 ease-in-out" src={vp1} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full rounded-3xl w-full border transition-all duration-300 ease-in-out" src={vp1} />
         </div>
     </div>
     </div>
@@ -65,7 +65,7 @@ const Documents = () => {
 
         <div className='grid grid-cols-1 w-3/4 gap-2 my-20 hover:gap-4 transition-all duration-300 ease-in-out'>
         <div className="grid grid-cols-1 gap-2 hover:gap-4 transition-all duration-300 ease-in-out bg-white">
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full rounded-3xl w-full border transition-all duration-300 ease-in-out" src={vp2} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full rounded-3xl w-full border transition-all duration-300 ease-in-out" src={vp2} />
         </div>
     </div>
     </div>

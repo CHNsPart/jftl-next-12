@@ -43,10 +43,10 @@ const CrabFarming = () => {
 
     <div className='grid grid-cols-1 w-3/4 gap-2 my-20 hover:gap-4 transition-all duration-300 ease-in-out'>
       <div className="grid grid-cols-4 gap-2 hover:gap-4 transition-all duration-300 ease-in-out">
-        <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={lab8} />
-        <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full rounded-t-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={lab7} />
-        <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full rounded-b-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={lab6} />
-        <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full  w-full border transition-all duration-300 ease-in-out rounded-r-full" src={lab5} />
+        <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={lab8} />
+        <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full rounded-t-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={lab7} />
+        <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full rounded-b-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={lab6} />
+        <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full  w-full border transition-all duration-300 ease-in-out rounded-r-full" src={lab5} />
       </div>
       <div 
         className
@@ -54,10 +54,10 @@ const CrabFarming = () => {
             hover:gap-4
             transition-all duration-300 ease-in-out"
         >
-        <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={lab2} />
-        <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full rounded-t-full rounded-r-full w-full border transition-all duration-300 ease-in-out" src={lab3} />
-        <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full rounded-b-full rounded-r-full w-full border transition-all duration-300 ease-in-out" src={lab1} />
-        <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full w-full border transition-all duration-300 ease-in-out rounded-r-full" src={lab4} />
+        <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={lab2} />
+        <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full rounded-t-full rounded-r-full w-full border transition-all duration-300 ease-in-out" src={lab3} />
+        <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full rounded-b-full rounded-r-full w-full border transition-all duration-300 ease-in-out" src={lab1} />
+        <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full w-full border transition-all duration-300 ease-in-out rounded-r-full" src={lab4} />
       </div>
       <p className='w-full mt-2 text-center italic font-sans text-gray-400'>Internationally recognized Food Safety Standards are strictly followed in JFTL soft crab processing.
 The Quality Manual also covers protocols for COVID management</p>

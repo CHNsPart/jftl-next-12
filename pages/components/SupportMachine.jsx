@@ -45,11 +45,11 @@ const SupportMachine = () => {
 
        {/*  <div className='grid grid-cols-1 w-3/4 gap-2 my-20 hover:gap-4 transition-all duration-300 ease-in-out'>
             <div className="grid grid-cols-5 gap-2 hover:gap-4 transition-all duration-300 ease-in-out">
-                <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-max rounded-l-full w-full border transition-all duration-300 ease-in-out" src={sm5} />
-                <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-max rounded-t-full rounded-r-full w-full border transition-all duration-300 ease-in-out" src={sm6} />
-                <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-max rounded-b-full rounded-r-full w-full border transition-all duration-300 ease-in-out" src={sm7} />
-                <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-max rounded-t-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={sm2} />
-                <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-max rounded-l-full w-full border transition-all duration-300 ease-in-out" src={sm1} />
+                <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-max rounded-l-full w-full border transition-all duration-300 ease-in-out" src={sm5} />
+                <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-max rounded-t-full rounded-r-full w-full border transition-all duration-300 ease-in-out" src={sm6} />
+                <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-max rounded-b-full rounded-r-full w-full border transition-all duration-300 ease-in-out" src={sm7} />
+                <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-max rounded-t-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={sm2} />
+                <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-max rounded-l-full w-full border transition-all duration-300 ease-in-out" src={sm1} />
             </div>
             <div 
                 className
@@ -57,8 +57,8 @@ const SupportMachine = () => {
                     hover:gap-4
                     transition-all duration-300 ease-in-out"
                 >
-                    <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-auto col-start-1 rounded-l-full w-3/4 border transition-all duration-300 ease-in-out" src={sm3} />
-                    <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-auto col-end-6 justify-end w-3/4 border transition-all duration-300 ease-in-out rounded-r-full" src={sm4} />
+                    <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-auto col-start-1 rounded-l-full w-3/4 border transition-all duration-300 ease-in-out" src={sm3} />
+                    <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-auto col-end-6 justify-end w-3/4 border transition-all duration-300 ease-in-out rounded-r-full" src={sm4} />
             </div>
         </div> */}
 
@@ -70,7 +70,7 @@ const SupportMachine = () => {
             <div className="h-10 w-10 shadow-xl flex justify-center items-center mb-5 rounded-full text-left font-bold text-2xl text-darkBrandBlue bg-clip-padding">
               1
             </div>
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm6} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm6} />
           </div>
           <p className="text-left text-lg px-10 w-[30rem]">
             Flake Ice Machine (Qty 02; 10 Ton/day)
@@ -82,7 +82,7 @@ const SupportMachine = () => {
             <div className="h-10 w-10 shadow-xl flex justify-center items-center mb-5 rounded-full text-left font-bold text-2xl text-darkBrandBlue bg-clip-padding">
               2
             </div>
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm5} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm5} />
           </div>
           <p className="text-left text-lg px-10 w-[30rem]">
             Blast Freezers (Qty 04; 6.3 Ton/day)
@@ -98,7 +98,7 @@ const SupportMachine = () => {
             <div className="h-10 w-10 shadow-xl flex justify-center items-center mb-5 rounded-full text-left font-bold text-2xl text-darkBrandBlue bg-clip-padding">
               3
             </div>
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm3} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm3} />
           </div>
           <p className="text-left text-lg px-10 w-[30rem]">
             3D Blast Freezer @ -37°C, KOGASUN, Japan
@@ -110,7 +110,7 @@ const SupportMachine = () => {
             <div className="h-10 w-10 shadow-xl flex justify-center items-center mb-5 rounded-full text-left font-bold text-2xl text-darkBrandBlue bg-clip-padding">
               4
             </div>
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm4} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm4} />
           </div>
           <p className="text-left text-lg px-10 w-[30rem]">
             Metal Detector (ISHIDA, Japan)
@@ -125,7 +125,7 @@ const SupportMachine = () => {
             <div className="h-10 w-10 shadow-xl flex justify-center items-center mb-5 rounded-full text-left font-bold text-2xl text-darkBrandBlue bg-clip-padding">
               5
             </div>
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm2} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm2} />
           </div>
           <p className="text-left text-lg px-10 w-[30rem]">
             Cold Storage @ -20°C ~-25°C (Total 200 Ton)
@@ -137,7 +137,7 @@ const SupportMachine = () => {
             <div className="h-10 w-10 shadow-xl flex justify-center items-center mb-5 rounded-full text-left font-bold text-2xl text-darkBrandBlue bg-clip-padding">
               6
             </div>
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm7} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm7} />
           </div>
           <p className="text-left text-lg px-10 w-[30rem]">
             Water Treatment Plant (WTP @ 3000ltr/hr) 
@@ -151,7 +151,7 @@ const SupportMachine = () => {
             <div className="h-10 w-10 shadow-xl flex justify-center items-center mb-5 rounded-full text-left font-bold text-2xl text-darkBrandBlue bg-clip-padding">
               7
             </div>
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm1} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm1} />
           </div>
           <p className="text-left text-lg px-10 w-[30rem]">
             Effluent Treatment Plant (ETP)
@@ -163,7 +163,7 @@ const SupportMachine = () => {
             <div className="h-10 w-10 shadow-xl flex justify-center items-center mb-5 rounded-full text-left font-bold text-2xl text-darkBrandBlue bg-clip-padding">
               8
             </div>
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm8} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm8} />
           </div>
           <p className="text-left text-lg px-10 w-[30rem]">
             Electric Sub-Station (315 KVA) with PFI
@@ -178,7 +178,7 @@ const SupportMachine = () => {
             <div className="h-10 w-10 shadow-xl flex justify-center items-center mb-5 rounded-full text-left font-bold text-2xl text-darkBrandBlue bg-clip-padding">
               9
             </div>
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm9} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm9} />
           </div>
           <p className="text-left text-lg px-10 w-[30rem]">
             Automatic Voltage Regulator (AVR, 400 KVA)
@@ -190,7 +190,7 @@ const SupportMachine = () => {
             <div className="h-10 w-10 shadow-xl flex justify-center items-center mb-5 rounded-full text-left font-bold text-2xl text-darkBrandBlue bg-clip-padding">
               10
             </div>
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm10} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm10} />
           </div>
           <p className="text-left text-lg px-10 w-[30rem]">
             24 Hr Backup Generator (300 KVA) TEMPEST, UK
@@ -204,7 +204,7 @@ const SupportMachine = () => {
             <div className="h-10 w-10 shadow-xl flex justify-center items-center mb-5 rounded-full text-left font-bold text-2xl text-darkBrandBlue bg-clip-padding">
               11
             </div>
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm11} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-auto w-1/2 border transition-all duration-300 ease-in-out" src={sm11} />
           </div>
           <p className="text-left text-lg px-10 w-[30rem]">
             Standby Compressor Machine unit for Cold Storage (Bietzer, Germany)

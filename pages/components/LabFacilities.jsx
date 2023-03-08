@@ -33,11 +33,11 @@ return (
       
       <div className="w-full h-auto flex flex-row justify-center my-20 lg:px-10">
         <div className="grid grid-cols-5 gap-2 hover:gap-4 transition-all duration-300 ease-in-out">
-          <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-contain rounded-l-full w-full h-full border transition-all duration-300 ease-in-out" src={mlab1} />
-          <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-contain rounded-t-full rounded-l-full w-full h-full border transition-all duration-300 ease-in-out" src={mlab2} />
-          <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-contain rounded-b-full rounded-l-full w-full h-full border transition-all duration-300 ease-in-out" src={mlab3} />
-          <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-contain rounded-b-full rounded-l-full w-full h-full border transition-all duration-300 ease-in-out" src={mlab5} />
-          <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-contain w-full h-full border transition-all duration-300 ease-in-out rounded-r-full" src={mlab4} />
+          <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-contain rounded-l-full w-full h-full border transition-all duration-300 ease-in-out" src={mlab1} />
+          <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-contain rounded-t-full rounded-l-full w-full h-full border transition-all duration-300 ease-in-out" src={mlab2} />
+          <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-contain rounded-b-full rounded-l-full w-full h-full border transition-all duration-300 ease-in-out" src={mlab3} />
+          <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-contain rounded-b-full rounded-l-full w-full h-full border transition-all duration-300 ease-in-out" src={mlab5} />
+          <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-contain w-full h-full border transition-all duration-300 ease-in-out rounded-r-full" src={mlab4} />
         </div>
       </div>
 

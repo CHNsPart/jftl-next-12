@@ -49,9 +49,9 @@ const Products = () => {
 
         <div className='grid grid-cols-1 w-3/4 gap-2 my-20 hover:gap-4 transition-all duration-300 ease-in-out'>
         <div className="grid grid-cols-3 gap-2 hover:gap-4 transition-all duration-300 ease-in-out">
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={vp2} />
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp1} />
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full rounded-r-full w-full border transition-all duration-300 ease-in-out" src={vp3} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={vp2} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp1} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full rounded-r-full w-full border transition-all duration-300 ease-in-out" src={vp3} />
         </div>
         
         <p className='w-full mt-2 text-center italic font-sans text-gray-400'>Each WR crab is individually packed with Food Grade Poly</p>
@@ -83,9 +83,9 @@ const Products = () => {
 
         <div className='grid grid-cols-1 w-2/4 gap-2 my-20 hover:gap-4 transition-all duration-300 ease-in-out'>
         <div className="grid grid-cols-3 gap-2 hover:gap-4 transition-all duration-300 ease-in-out">
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-contain h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp4} />
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-contain h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp5} />
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-contain h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp6} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-contain h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp4} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-contain h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp5} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-contain h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp6} />
         </div>
         
         <p className='w-full mt-2 text-center italic font-sans text-gray-400'>Eyes, Apron, Grill (Filter), Mouth, Antenna, etc. are cleaned and removed from the body</p>
@@ -117,10 +117,10 @@ const Products = () => {
 
         <div className='grid grid-cols-1 w-2/3 gap-2 my-20 hover:gap-4 transition-all duration-300 ease-in-out'>
         <div className="grid grid-cols-4 gap-2 hover:gap-4 transition-all duration-300 ease-in-out">
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-contain h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp7} />
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-contain h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp8} />
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp9} />
-            <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp10} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-contain h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp7} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-contain h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp8} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp9} />
+            <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp10} />
         </div>
         
         <p className='w-full mt-2 text-center italic font-sans text-gray-400'>Spicy Powder Coated Frozen Soft Shell Crabs
@@ -153,18 +153,18 @@ const Products = () => {
 
         <div className='grid grid-cols-3 w-3/4 gap-2 mt-20 hover:gap-4 transition-all duration-300 ease-in-out'>
             <div className="grid grid-cols-1 gap-2 hover:gap-4 transition-all duration-300 ease-in-out">
-                <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp11} />
-                <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp12} />
-                <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp13} />
+                <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp11} />
+                <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp12} />
+                <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp13} />
             </div>
             <div className="grid grid-cols-1 gap-2 hover:gap-4 transition-all duration-300 ease-in-out">
-                <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-contain h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp14} />
-                <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-contain h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp15} />
-                <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp16} />
+                <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-contain h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp14} />
+                <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-contain h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp15} />
+                <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp16} />
             </div>
             <div className="grid grid-cols-1 grid-rows-2 gap-2 hover:gap-4 transition-all duration-300 ease-in-out">
-                <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp17} />
-                <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp18} />
+                <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp17} />
+                <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full rounded-xl w-full border transition-all duration-300 ease-in-out" src={vp18} />
             </div>
         </div>
         <p className='w-full mt-5 text-center italic font-sans text-gray-400'>Inner Carton (IC) : 300 GSM Standard Laminated Box <br />

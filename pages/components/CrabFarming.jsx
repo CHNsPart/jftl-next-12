@@ -33,10 +33,10 @@ const CrabFarming = () => {
       
       <div className="w-full h-auto flex flex-row justify-center my-20 lg:px-10">
         <div className="grid grid-cols-4 gap-2 hover:gap-4 transition-all duration-300 ease-in-out">
-          <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover rounded-l-full w-full border transition-all duration-300 ease-in-out" src={softShell} />
-          <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover rounded-t-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={ss2} />
-          <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover rounded-b-full h-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={ss3} />
-          <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full w-full border transition-all duration-300 ease-in-out rounded-r-full" src={ss4} />
+          <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover rounded-l-full w-full border transition-all duration-300 ease-in-out" src={softShell} />
+          <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover rounded-t-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={ss2} />
+          <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover rounded-b-full h-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={ss3} />
+          <Image className="border-none hover:shadow-2xl hover:shadow-brandBlue object-cover h-full w-full border transition-all duration-300 ease-in-out rounded-r-full" src={ss4} />
         </div>
       </div>
 
