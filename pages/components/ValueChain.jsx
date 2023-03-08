@@ -5,7 +5,7 @@ import valueComp from '../../public/valueComp.png';
 const ValueChain = () => {
   return (
     <div
-      className="bg-[#020721] dark:bg-transparent flex h-screen w-full flex-col justify-center items-center"
+      className="bg-[#020721] dark:bg-transparent flex h-screen w-full flex-col justify-center items-center mt-20"
     >
 {/*       <div className='bg-[url("/crabbgf.png")] bg-no-repeat bg-center bg-cover h-[100%] w-full absolute -z-20 opacity-20' /> */}
       <div className="h-auto w-full flex justify-center items-center">
@@ -21,7 +21,7 @@ const ValueChain = () => {
         src={valueComp}
         height="auto"
         width="auto"
-        className="px-24 w-full my-10"
+        className="px-24 w-full my-5"
       />
 
       {/*      <div className='w-full mt-10 px-36 flex flex-row justify-around items-center'>
