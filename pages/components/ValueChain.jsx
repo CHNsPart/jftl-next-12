@@ -23,7 +23,6 @@ const ValueChain = () => {
         width="auto"
         className="px-24 w-full my-5"
       />
-
       {/*      <div className='w-full mt-10 px-36 flex flex-row justify-around items-center'>
         <div className='w-1/2 mr-5 bg-darkBrandBlue px-5 h-fit py-10 rounded-lg text-white'>
           <h1 className='text-5xl font-bold mb-5'>
